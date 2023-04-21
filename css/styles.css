@@ -15,7 +15,7 @@
   font-size: 3rem;
 }
 .git:hover {
-  background-color: white;
+  background-color: black;
   color: white;
   transition: all 1s ease 0s;
 }
