@@ -1,3 +1,21 @@
+@import url(./css/normalize.css);
+
+//-------------------------------------------------------------------
+
+$tcolor: white;
+$bcolor: black;
+
+//-------------------------------------------------------------------
+
+@mixin centerpage($colcenter, $rowcenter){
+	display: flex;
+	height: 100vh;
+	justify-content: $colcenter;
+	align-items: $rowcenter;
+}
+
+//-------------------------------------------------------------------
+
 *{
 	padding: 0;
 	margin: 0;
@@ -5,10 +23,7 @@
 }
 
 .git{
-	display: flex;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
+	@include centerpage(center, center);
 
 	h1{
 		font-size: 3rem;
