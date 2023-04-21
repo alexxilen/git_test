@@ -30,8 +30,8 @@ $bcolor: black;
 	}
 
 	&:hover{
-		background-color: black;
-		color: white;
+		background-color: $tcolor;
+		color: $tcolor;
 		transition: all 1s ease 0s;
 		h1{
 			transform: scale(2);
